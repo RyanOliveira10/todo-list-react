@@ -4,11 +4,7 @@ import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 
 function App() {
-  const [todos, setTodos] = useState([
-    { complete: false, task: "Read about MongoDb" },
-    { complete: false, task: "Read about MongoDb" },
-    { complete: false, task: "Read about MongoDb" },
-  ]);
+  const [todos, setTodos] = useState([]);
 
   return (
     <div className="App">
